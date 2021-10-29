@@ -24,6 +24,16 @@ function setup(){
   function draw(){
    image(video,0,0,700,600);
     
+
+   fill("red");
+   stroke("blue");
+   circle(left_wrist_x,left_wrist_y,20);
+   number=Number(left_wrist_y);
+   decimal=floor(number);
+   volume=decimal/600;
+   console.log("Volume" + volume);
+   document.getElementById("volume").innerHTML="Volume:" + volume;
+   song.setVolume(volume);
 }
 
 function play(){
@@ -50,4 +60,6 @@ function gotPoses(results){
 
     }
 }
+
+
 
