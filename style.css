@@ -1,61 +1,25 @@
-.heading{
-font-size: 23px;
-width: 100%;
-margin: 0px;
-}
-
-.note{
-    font-size:15px;
-    color: black;
-}
-
 body{
-    background-size: cover;
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: cyan;
+    color: royalblue;
 }
 
-.div_speed{
-    float: left;
-}
 
-.div_speed_img{
-    width:200px;
-    border-radius:100px;
-}
-
-#speed{
-    font-size:23px;
-    margin:15px;
-}
-
-.div_volume{
-    float: right;
-}
-
-.div_volume_img{
-    width:200px;
-    border-radius:100px;
-}
-
-#volume{
-    font-size:23px;
-    margin:15px;
-}
-
-.play_button {
-    width: 130px;
-    font-size: 25px;
-    margin-top: 50px;
-
-}
 
 canvas{
     border: 15px solid red;
     border-radius: 20px;
 }
 
-.stop_button {
-    width: 130px;
+
+.btn-success{
+    width: 100%;
     font-size: 25px;
-    margin-top: 50px;
 }
 
+
+.btn-danger{
+    margin-top: 20px;
+    font-size: 25px;
+    height: 60px;
+}
